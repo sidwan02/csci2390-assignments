@@ -1,0 +1,35 @@
+This homework asks you to implement a small sample piece of code for encrypting and decrypting strings,
+and then asks you questions about its behavior. The homework asks you to implement this code
+using libsodium, a widely-used cryptography library compatible with many languages.
+
+Step 1:
+Follow the example code at https://doc.libsodium.org/public-key_cryptography/authenticated_encryption
+to encrypt and decrypt a message. Print the decrypted message to the screen and validate that it is
+the same as the input.
+
+To make this easier for you, we provide stubs for c++ and javascript, each with a README file describing
+how to build and run them.
+
+Step 2:
+The example demonstrates how to use an authenticated public-key randomized encryption scheme.
+Let's dive deeper to understand each of these terms.
+
+Look at your example code, observe its behavior, and answer the following questions.
+
+General encryption questions:
+1. Print the cipher text to the screen, is it intelligible? Is it supposed to be intelligible?
+2. Print the length of the message and the length of the cipher, which one is greater? Try to search online to validate your observation.
+
+Public-key encryption:
+3. You generated two pairs of keys. Each pair consists of a public and a secret key. What is each used for? Look this up online.
+
+Authenticated encryption:
+4. The encryption function takes two keys. A public and a secret key. Who does each belong to? (e.g. the sender or the receiver).
+5. Similarly the decryption function takes two different keys. Who does each belong to?
+6. Try to modify some bytes of the cipher (say you set the first byte to 100). Run your code. Does the cipher decrypt correctly? Explain what happens.
+
+Randomized encryption:
+7. Run your code several times over the same input and observe the cipher text. Is the cipher text different between runs?
+8. Your implementation uses a `nonce` during encryption and decryption. What is a nonce and why is it used? Look this up online.
+9. Why do we use randomized encryption schemes? What is a potential issue with a deterministic (i.e. not randomized) encryption scheme that
+   always produces the same cipher text when encrypting the same message?

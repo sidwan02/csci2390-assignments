@@ -1,0 +1,57 @@
+{
+  "body": {
+    "key": {
+      "eldest_kid": "0101d3c902ebe3c371bdf1ba7bf6903295a863626ada99a06261dc0cd1696b5c72b20a",
+      "host": "keybase.io",
+      "kid": "01205f5d2494af63f40f2bb646ca93f6ebac98e21a0fd4934a48970380ed0a0ae6150a",
+      "uid": "eb0addacae9d6673e6bbd8dafb740a00",
+      "username": "malte"
+    },
+    "merkle_root": {
+      "ctime": 1701054087,
+      "hash": "83eee121c05daa6365fe070dba9870c72ec0d34a0986be72a68f666995e6b14ff88cc40fcc90c34030e1ebcfa98de42d49ad14324e3096930b6c74a103acc94d",
+      "hash_meta": "f4cccaa94b95dcfb506666e50d5947c79a145e3302e75a22e43344c59a8db2af",
+      "seqno": 25182477
+    },
+    "track": {
+      "basics": {
+        "id_version": 6,
+        "last_id_change": 1701053913,
+        "username": "nharbison"
+      },
+      "entropy": "teDvoSJpHxpKB7kandfp6BVY",
+      "id": "578b9dfd2bd0b694214e3ca3b40c9a19",
+      "key": {
+        "kid": "0120f192d83ab0fe44d9bcf09cfa3ba85a53b6d158f3e8755bfe459dc98e33343f610a"
+      },
+      "remote_proofs": [
+        {
+          "ctime": 1701053557,
+          "curr": "e6ed28b6c8c072e0ea2be8bc8eb74f14d07ee93bce5ae07a0f23261712993a93",
+          "etime": 2205629557,
+          "prev": "fdb8b47cf64824b30489a9e7d5c0dbcfde076d874be71a42b89870b2688c0b9d",
+          "remote_key_proof": {
+            "check_data_json": { "name": "github", "username": "nharbiso" },
+            "proof_type": 3,
+            "state": 1
+          },
+          "sig_id": "e382ed43bd82baefe80a6d24b2543cbfc7a5d170a216701ee9f20d6c765c29510f",
+          "sig_type": 2
+        }
+      ],
+      "seq_tail": {
+        "payload_hash": "acf9e0ecad1ba19ef654352152b0b4199e390808200497adedccb7d15d79066c",
+        "seqno": 7,
+        "sig_id": "5ec2073f47b4b5a8e0883fa87b9ce96046ec7c2ef4aef5594851100c24c8eba30f"
+      }
+    },
+    "type": "track",
+    "version": 2
+  },
+  "client": { "name": "keybase.io go client", "version": "6.2.4" },
+  "ctime": 1701054098,
+  "expire_in": 504576000,
+  "prev": "d6e47f36070c5b50202d370efa7612280ebb7d7c400651c508b5b70499c05b1b",
+  "seqno": 48,
+  "tag": "signature"
+}
